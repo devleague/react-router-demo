@@ -4,7 +4,7 @@
 
 Steps
 ---
-- fork and clone repo 
+- fork and clone repo https://github.com/devleague/react-router-demo
 
 ```shell
 $ cd react-router-demo
