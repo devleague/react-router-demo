@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  margin: 15px 15px 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.page-container {
+  display: flex;
+  flex-grow: 1;
+  padding: 15px;
+}
+
+.page-container .page-sidebar {
+  border: 1px solid red;
+  min-width: 200px;
+  width: 20%;
+  align-items: stretch;
+  padding: 15px 10px 10px 15px;
+}
+
+.page-sidebar a:hover {
+  color: greenyellow;
+}
+
+.page-container .page-content {
+  border: 1px solid green;
+  align-items: stretch;
+  width: 80%;
+  padding: 15px;
+}
+
+.planet-link {
+  padding: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.planet-link:hover {
+  background-color: #bbb;
+}
+
+.planet-link:hover a {
+  color: greenyellow;
+}
+
+.planet {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
